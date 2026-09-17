@@ -1,0 +1,368 @@
+{
+  "session_id": "42c30f15-15a8-436b-a82b-f7579a14e304",
+  "generated_at": "2026-09-16T03:47:29.313621+00:00",
+  "status": "ready",
+  "summary": {
+    "files_uploaded": 1,
+    "datasets_prepared": 1,
+    "integrated_datasets": 0,
+    "total_rows": 100000,
+    "total_warnings": 0,
+    "total_failed_checks": 0,
+    "failed_files": 0
+  },
+  "datasets": [
+    {
+      "table_name": "users_old",
+      "source_file": "users_old.csv",
+      "source_format": "delimited",
+      "rows_before": 100000,
+      "rows_after": 100000,
+      "columns": 15,
+      "column_types": {
+        "id": "numeric",
+        "first_name": "text",
+        "last_name": "text",
+        "email": "text",
+        "age": "numeric",
+        "gender": "categorical",
+        "state": "text",
+        "street_address": "numeric",
+        "postal_code": "numeric",
+        "city": "text",
+        "country": "categorical",
+        "latitude": "numeric",
+        "longitude": "numeric",
+        "traffic_source": "categorical",
+        "created_at": "datetime"
+      },
+      "column_profiles": [
+        {
+          "name": "id",
+          "type": "numeric",
+          "missing_percent": 0.0,
+          "distinct": 100000,
+          "unique_ratio": 1.0,
+          "is_constant": false,
+          "id_candidate": true
+        },
+        {
+          "name": "first_name",
+          "type": "text",
+          "missing_percent": 0.0,
+          "distinct": 690,
+          "unique_ratio": 0.0069,
+          "is_constant": false,
+          "id_candidate": false
+        },
+        {
+          "name": "last_name",
+          "type": "text",
+          "missing_percent": 0.0,
+          "distinct": 1000,
+          "unique_ratio": 0.01,
+          "is_constant": false,
+          "id_candidate": false
+        },
+        {
+          "name": "email",
+          "type": "text",
+          "missing_percent": 0.0,
+          "distinct": 83494,
+          "unique_ratio": 0.8349,
+          "is_constant": false,
+          "id_candidate": false
+        },
+        {
+          "name": "age",
+          "type": "numeric",
+          "missing_percent": 0.0,
+          "distinct": 59,
+          "unique_ratio": 0.0006,
+          "is_constant": false,
+          "id_candidate": false
+        },
+        {
+          "name": "gender",
+          "type": "categorical",
+          "missing_percent": 0.0,
+          "distinct": 2,
+          "unique_ratio": 0.0,
+          "is_constant": false,
+          "id_candidate": false
+        },
+        {
+          "name": "state",
+          "type": "text",
+          "missing_percent": 0.0,
+          "distinct": 230,
+          "unique_ratio": 0.0023,
+          "is_constant": false,
+          "id_candidate": false
+        },
+        {
+          "name": "street_address",
+          "type": "numeric",
+          "missing_percent": 0.0,
+          "distinct": 99999,
+          "unique_ratio": 1.0,
+          "is_constant": false,
+          "id_candidate": false
+        },
+        {
+          "name": "postal_code",
+          "type": "numeric",
+          "missing_percent": 0.0,
+          "distinct": 15697,
+          "unique_ratio": 0.157,
+          "is_constant": false,
+          "id_candidate": false
+        },
+        {
+          "name": "city",
+          "type": "text",
+          "missing_percent": 0.96,
+          "distinct": 7884,
+          "unique_ratio": 0.0796,
+          "is_constant": false,
+          "id_candidate": false
+        },
+        {
+          "name": "country",
+          "type": "categorical",
+          "missing_percent": 0.0,
+          "distinct": 15,
+          "unique_ratio": 0.0001,
+          "is_constant": false,
+          "id_candidate": false
+        },
+        {
+          "name": "latitude",
+          "type": "numeric",
+          "missing_percent": 0.0,
+          "distinct": 16441,
+          "unique_ratio": 0.1644,
+          "is_constant": false,
+          "id_candidate": false
+        },
+        {
+          "name": "longitude",
+          "type": "numeric",
+          "missing_percent": 0.0,
+          "distinct": 16397,
+          "unique_ratio": 0.164,
+          "is_constant": false,
+          "id_candidate": false
+        },
+        {
+          "name": "traffic_source",
+          "type": "categorical",
+          "missing_percent": 0.0,
+          "distinct": 5,
+          "unique_ratio": 0.0001,
+          "is_constant": false,
+          "id_candidate": false
+        },
+        {
+          "name": "created_at",
+          "type": "datetime",
+          "missing_percent": 0.0,
+          "distinct": 98070,
+          "unique_ratio": 0.9807,
+          "is_constant": false,
+          "id_candidate": false
+        }
+      ],
+      "prepared_path": "data/prepared\\42c30f15-15a8-436b-a82b-f7579a14e304\\users_old.csv",
+      "raw_path": "data/uploads\\42c30f15-15a8-436b-a82b-f7579a14e304_users_old.csv",
+      "load_notes": []
+    }
+  ],
+  "quality": [
+    {
+      "table_name": "users_old",
+      "missing_percent_before": 0.06,
+      "missing_percent_after": 0.06,
+      "duplicate_rows_removed": 0,
+      "duplicate_key_columns": [
+        {
+          "column": "postal_code",
+          "duplicate_values": 84303,
+          "distinct_values": 15697,
+          "detail": "'postal_code' repeats across rows - it is not a unique identifier in this dataset."
+        }
+      ],
+      "invalid_values": [],
+      "id_candidates": [
+        "id"
+      ],
+      "constant_columns": []
+    }
+  ],
+  "transformations": [
+    {
+      "table_name": "users_old",
+      "actions": [
+        {
+          "stage": "standardize",
+          "action": "standardized_dates",
+          "detail": "1 date column(s) converted to ISO 8601.",
+          "columns": [
+            {
+              "column": "created_at",
+              "output_format": "ISO 8601 with time",
+              "unparseable_values": 0
+            }
+          ]
+        },
+        {
+          "stage": "clean",
+          "action": "converted_types",
+          "detail": "4 column(s) converted to a proper type.",
+          "columns": [
+            {
+              "column": "id",
+              "from": "str",
+              "to": "numeric",
+              "values_not_converted": 0
+            },
+            {
+              "column": "age",
+              "from": "str",
+              "to": "numeric",
+              "values_not_converted": 0
+            },
+            {
+              "column": "latitude",
+              "from": "str",
+              "to": "numeric",
+              "values_not_converted": 0
+            },
+            {
+              "column": "longitude",
+              "from": "str",
+              "to": "numeric",
+              "values_not_converted": 0
+            }
+          ]
+        },
+        {
+          "stage": "clean",
+          "action": "skipped_type_conversion",
+          "detail": "2 column(s) left as text because conversion would have destroyed too many values.",
+          "columns": [
+            {
+              "column": "street_address",
+              "attempted_type": "numeric",
+              "success_rate": 0.0
+            },
+            {
+              "column": "postal_code",
+              "attempted_type": "numeric",
+              "success_rate": 0.749
+            }
+          ]
+        },
+        {
+          "stage": "clean",
+          "action": "left_missing_values",
+          "detail": "1 column(s) kept their missing values because no safe fill existed.",
+          "columns": [
+            {
+              "column": "city",
+              "missing": 957,
+              "reason": "no safe default for a text column"
+            }
+          ]
+        },
+        {
+          "stage": "clean",
+          "action": "standardized_categories",
+          "detail": "Standardized categorical representations across 1 column(s).",
+          "details": [
+            {
+              "column": "gender",
+              "standardized_to": [
+                "Male",
+                "Female"
+              ],
+              "rows_updated": 100000
+            }
+          ]
+        },
+        {
+          "stage": "deduplicate",
+          "action": "flagged_duplicate_keys",
+          "detail": "1 identifier column(s) contain repeated values (reported, not modified).",
+          "findings": [
+            {
+              "column": "postal_code",
+              "duplicate_values": 84303,
+              "distinct_values": 15697,
+              "detail": "'postal_code' repeats across rows - it is not a unique identifier in this dataset."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "integration": {
+    "column_matches": [],
+    "relationships": [],
+    "joined_datasets": []
+  },
+  "validation": {
+    "per_dataset": [
+      {
+        "table_name": "users_old",
+        "passed": [
+          {
+            "status": "passed",
+            "message": "'id' is unique and complete.",
+            "column": "id"
+          },
+          {
+            "status": "passed",
+            "message": "No column is missing an unusual share of values."
+          },
+          {
+            "status": "passed",
+            "message": "All dates in 'created_at' are valid.",
+            "column": "created_at"
+          },
+          {
+            "status": "passed",
+            "message": "No exact duplicate rows remain."
+          }
+        ],
+        "warnings": [],
+        "failed": []
+      }
+    ],
+    "integration_checks": []
+  },
+  "feature_relevance": [
+    {
+      "table_name": "users_old",
+      "method": "structural screening (no analytical goal provided)",
+      "low_relevance": [
+        {
+          "column": "id",
+          "relevance": "low_relevance",
+          "reasons": [
+            "appears to be a unique identifier"
+          ]
+        },
+        {
+          "column": "email",
+          "relevance": "low_relevance",
+          "reasons": [
+            "free text with almost no repeated values"
+          ]
+        }
+      ],
+      "note": "These columns are unlikely to be useful as features. Nothing was removed - the analysis and ML tools decide what to use."
+    }
+  ],
+  "errors": []
+}

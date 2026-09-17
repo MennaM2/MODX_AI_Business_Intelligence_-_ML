@@ -1,0 +1,401 @@
+customer_id,full_name,gender,country,age,annual_income,signup_date,internal_record_number,raw_import_timestamp,data_source,notes,tenure_months,monthly_charges,contract_type,payment_method,churn_internal_record_number,churn_raw_import_timestamp,churn
+1,Customer 1,Male,USA,43.0,38000.0,2023-03-04,100001,2024-01-01,crm,,56,35.77,Two year,Cash,900001,2024-01-01,False
+2,Customer 2,Male,USA,20.0,,2023-01-15,100002,2024-01-01,crm,,10,112.98,Month-to-month,Bank,900002,2024-01-01,True
+3,Customer 3,Male,Germany,45.0,,,100003,2024-01-01,crm,,39,119.16,Two year,Cash,900003,2024-01-01,False
+4,Customer 4,Male,Germany,43.0,76000.0,,100004,2024-01-01,crm,,24,69.13,Two year,Card,900004,2024-01-01,False
+5,Customer 5,Male,Germany,27.0,,2023-01-15,100005,2024-01-01,crm,,19,80.49,One year,Cash,900005,2024-01-01,False
+6,Customer 6,Male,USA,53.0,,2023-07-22,100006,2024-01-01,crm,follow up,22,38.33,Two year,Cash,900006,2024-01-01,False
+7,Customer 7,Male,Germany,45.0,,2023-03-15,100007,2024-01-01,crm,,15,106.85,One year,Card,900007,2024-01-01,True
+8,Customer 8,Female,UK,33.0,,2023-03-04,100008,2024-01-01,crm,follow up,8,40.74,Month-to-month,Cash,900008,2024-01-01,True
+9,Customer 9,Male,Germany,22.0,,2023-03-04,100009,2024-01-01,crm,,28,71.08,Month-to-month,Cash,900009,2024-01-01,True
+10,Customer 10,Female,Germany,20.0,,2023-03-04,100010,2024-01-01,crm,follow up,28,34.37,Two year,Bank,900010,2024-01-01,False
+11,Customer 11,Male,UK,47.0,,2023-07-22,100011,2024-01-01,crm,,4,62.39,Two year,Cash,900011,2024-01-01,False
+12,Customer 12,Male,France,45.0,,2023-07-22,100012,2024-01-01,crm,vip,34,80.42,Month-to-month,Bank,900012,2024-01-01,False
+13,Customer 13,Male,Germany,45.0,,2023-01-15,100013,2024-01-01,crm,,28,71.32,One year,Card,900013,2024-01-01,False
+14,Customer 14,Male,USA,45.0,,2023-07-22,100014,2024-01-01,crm,,12,97.38,One year,Cash,900014,2024-01-01,False
+15,Customer 15,Female,Germany,45.0,,,100015,2024-01-01,crm,vip,22,94.84,Month-to-month,Cash,900015,2024-01-01,False
+16,Customer 16,Female,Germany,45.0,,2023-01-15,100016,2024-01-01,crm,,33,43.21,Month-to-month,Card,900016,2024-01-01,False
+17,Customer 17,Female,USA,45.0,,,100017,2024-01-01,crm,,23,110.41,Month-to-month,Cash,900017,2024-01-01,False
+18,Customer 18,Male,USA,45.0,,,100018,2024-01-01,crm,vip,15,94.92,Two year,Cash,900018,2024-01-01,False
+19,Customer 19,Female,France,72.0,,2023-07-22,100019,2024-01-01,crm,follow up,28,47.25,One year,Cash,900019,2024-01-01,False
+20,Customer 20,Female,USA,45.0,,2023-01-15,100020,2024-01-01,crm,,7,68.84,Month-to-month,Bank,900020,2024-01-01,True
+21,Customer 21,Female,USA,45.0,33000.0,2023-01-15,100021,2024-01-01,crm,,12,106.86,Two year,Cash,900021,2024-01-01,False
+22,Customer 22,Male,USA,41.0,,,100022,2024-01-01,crm,follow up,54,34.21,One year,Card,900022,2024-01-01,False
+23,Customer 23,Female,France,45.0,,2023-01-15,100023,2024-01-01,crm,,28,119.76,One year,Bank,900023,2024-01-01,False
+24,Customer 24,Female,Germany,45.0,99000.0,2023-03-15,100024,2024-01-01,crm,,32,119.65,Month-to-month,Card,900024,2024-01-01,False
+25,Customer 25,Female,USA,45.0,,,100025,2024-01-01,crm,,53,55.65,One year,Bank,900025,2024-01-01,False
+26,Customer 26,Female,Germany,45.0,,2023-01-15,100026,2024-01-01,crm,vip,40,36.19,Month-to-month,Bank,900026,2024-01-01,False
+27,Customer 27,Male,USA,45.0,,2023-03-15,100027,2024-01-01,crm,,11,34.25,Two year,Bank,900027,2024-01-01,False
+28,Customer 28,Female,UK,45.0,,2023-03-04,100028,2024-01-01,crm,,16,70.46,Month-to-month,Bank,900028,2024-01-01,False
+29,Customer 29,Male,UK,45.0,,,100029,2024-01-01,crm,vip,62,103.99,Two year,Bank,900029,2024-01-01,False
+30,Customer 30,Female,UK,45.0,113000.0,2023-03-15,100030,2024-01-01,crm,,61,114.48,One year,Cash,900030,2024-01-01,False
+31,Customer 31,Female,Germany,45.0,,,100031,2024-01-01,crm,,26,67.18,Two year,Card,900031,2024-01-01,False
+32,Customer 32,Female,France,40.0,,2023-03-15,100032,2024-01-01,crm,follow up,65,36.92,Month-to-month,Bank,900032,2024-01-01,True
+33,Customer 33,Female,Germany,45.0,,2023-07-22,100033,2024-01-01,crm,follow up,50,116.7,One year,Card,900033,2024-01-01,False
+34,Customer 34,Female,USA,45.0,,2023-01-15,100034,2024-01-01,crm,,46,93.41,One year,Bank,900034,2024-01-01,False
+35,Customer 35,Male,Germany,45.0,,2023-03-15,100035,2024-01-01,crm,,51,84.55,One year,Cash,900035,2024-01-01,True
+36,Customer 36,Male,USA,69.0,,2023-03-15,100036,2024-01-01,crm,,71,20.64,Two year,Bank,900036,2024-01-01,False
+37,Customer 37,Male,USA,45.0,,,100037,2024-01-01,crm,vip,46,70.89,Two year,Cash,900037,2024-01-01,False
+38,Customer 38,Male,Germany,45.0,,2023-07-22,100038,2024-01-01,crm,follow up,52,115.21,Two year,Bank,900038,2024-01-01,False
+39,Customer 39,Male,USA,45.0,150000.0,2023-07-22,100039,2024-01-01,crm,,21,75.42,Two year,Cash,900039,2024-01-01,False
+40,Customer 40,Male,USA,45.0,,2023-07-22,100040,2024-01-01,crm,,1,114.93,Month-to-month,Cash,900040,2024-01-01,True
+41,Customer 41,Male,USA,45.0,47000.0,2023-03-15,100041,2024-01-01,crm,,47,87.79,One year,Bank,900041,2024-01-01,False
+42,Customer 42,Male,USA,67.0,,,100042,2024-01-01,crm,,29,54.01,Month-to-month,Cash,900042,2024-01-01,False
+43,Customer 43,Male,Germany,45.0,,,100043,2024-01-01,crm,follow up,71,60.25,Month-to-month,Bank,900043,2024-01-01,False
+44,Customer 44,Male,USA,45.0,,2023-03-15,100044,2024-01-01,crm,follow up,15,33.6,Month-to-month,Cash,900044,2024-01-01,False
+45,Customer 45,Male,Germany,45.0,,2023-07-22,100045,2024-01-01,crm,,42,100.66,One year,Bank,900045,2024-01-01,False
+46,Customer 46,Female,France,37.0,,2023-03-15,100046,2024-01-01,crm,vip,36,56.34,Month-to-month,Bank,900046,2024-01-01,False
+47,Customer 47,Female,Germany,32.0,,2023-03-15,100047,2024-01-01,crm,,71,73.2,One year,Cash,900047,2024-01-01,False
+48,Customer 48,Female,France,45.0,,2023-03-15,100048,2024-01-01,crm,vip,62,31.63,One year,Bank,900048,2024-01-01,False
+49,Customer 49,Male,USA,45.0,,,100049,2024-01-01,crm,follow up,34,21.68,One year,Card,900049,2024-01-01,False
+50,Customer 50,Female,France,45.0,,,100050,2024-01-01,crm,,47,101.04,Two year,Cash,900050,2024-01-01,False
+51,Customer 51,Male,UK,32.0,,2023-03-04,100051,2024-01-01,crm,,2,47.58,One year,Bank,900051,2024-01-01,False
+52,Customer 52,Female,USA,45.0,,2023-07-22,100052,2024-01-01,crm,,64,36.02,Two year,Bank,900052,2024-01-01,False
+53,Customer 53,Male,Germany,45.0,103000.0,2023-03-04,100053,2024-01-01,crm,,3,27.57,Month-to-month,Card,900053,2024-01-01,True
+54,Customer 54,Female,USA,45.0,88000.0,2023-01-15,100054,2024-01-01,crm,vip,18,34.69,Month-to-month,Card,900054,2024-01-01,False
+55,Customer 55,Male,Germany,45.0,,2023-01-15,100055,2024-01-01,crm,follow up,8,63.66,Month-to-month,Cash,900055,2024-01-01,True
+56,Customer 56,Male,USA,45.0,,2023-01-15,100056,2024-01-01,crm,,14,114.69,Two year,Cash,900056,2024-01-01,False
+57,Customer 57,Male,USA,34.0,,2023-03-04,100057,2024-01-01,crm,vip,12,97.29,Month-to-month,Bank,900057,2024-01-01,False
+58,Customer 58,Male,UK,45.0,,2023-03-04,100058,2024-01-01,crm,vip,25,23.99,One year,Cash,900058,2024-01-01,False
+59,Customer 59,Male,USA,20.0,,,100059,2024-01-01,crm,follow up,50,62.22,Two year,Cash,900059,2024-01-01,False
+60,Customer 60,Female,Germany,45.0,,,100060,2024-01-01,crm,vip,23,79.7,One year,Card,900060,2024-01-01,True
+61,Customer 61,Female,USA,45.0,,2023-07-22,100061,2024-01-01,crm,vip,11,25.59,Month-to-month,Card,900061,2024-01-01,True
+62,Customer 62,Male,UK,26.0,,2023-07-22,100062,2024-01-01,crm,,3,52.78,Two year,Cash,900062,2024-01-01,False
+63,Customer 63,Male,USA,45.0,,,100063,2024-01-01,crm,,22,31.23,Month-to-month,Card,900063,2024-01-01,True
+64,Customer 64,Female,USA,45.0,,2023-03-04,100064,2024-01-01,crm,follow up,24,39.75,One year,Cash,900064,2024-01-01,False
+65,Customer 65,Male,USA,45.0,,2023-01-15,100065,2024-01-01,crm,vip,26,56.06,One year,Bank,900065,2024-01-01,True
+66,Customer 66,Female,USA,29.0,,2023-01-15,100066,2024-01-01,crm,follow up,51,60.9,One year,Card,900066,2024-01-01,True
+67,Customer 67,Male,Germany,45.0,83000.0,2023-01-15,100067,2024-01-01,crm,vip,62,117.46,Two year,Cash,900067,2024-01-01,False
+68,Customer 68,Male,USA,43.0,120000.0,2023-03-04,100068,2024-01-01,crm,vip,23,36.56,Month-to-month,Bank,900068,2024-01-01,False
+69,Customer 69,Female,USA,45.0,,2023-07-22,100069,2024-01-01,crm,,8,64.55,Two year,Cash,900069,2024-01-01,False
+70,Customer 70,Male,France,45.0,,,100070,2024-01-01,crm,,5,98.32,Two year,Cash,900070,2024-01-01,False
+71,Customer 71,Male,UK,50.0,78000.0,2023-01-15,100071,2024-01-01,crm,,2,65.16,Month-to-month,Cash,900071,2024-01-01,True
+72,Customer 72,Female,France,41.0,,,100072,2024-01-01,crm,,44,86.02,Two year,Card,900072,2024-01-01,False
+73,Customer 73,Female,USA,45.0,,2023-01-15,100073,2024-01-01,crm,follow up,7,111.48,Two year,Cash,900073,2024-01-01,True
+74,Customer 74,Male,France,50.0,,2023-03-04,100074,2024-01-01,crm,,19,69.68,Two year,Bank,900074,2024-01-01,False
+75,Customer 75,Male,USA,45.0,,2023-07-22,100075,2024-01-01,crm,follow up,21,89.07,Month-to-month,Cash,900075,2024-01-01,False
+76,Customer 76,Male,Germany,45.0,,2023-01-15,100076,2024-01-01,crm,,66,113.87,One year,Bank,900076,2024-01-01,False
+77,Customer 77,Male,USA,45.0,54000.0,2023-07-22,100077,2024-01-01,crm,,25,76.99,Two year,Cash,900077,2024-01-01,False
+78,Customer 78,Female,USA,61.0,,2023-03-04,100078,2024-01-01,crm,vip,53,53.38,One year,Cash,900078,2024-01-01,True
+79,Customer 79,Female,Germany,47.0,,2023-01-15,100079,2024-01-01,crm,follow up,21,51.63,One year,Card,900079,2024-01-01,False
+80,Customer 80,Male,USA,47.0,,2023-03-04,100080,2024-01-01,crm,follow up,35,119.35,Month-to-month,Cash,900080,2024-01-01,True
+81,Customer 81,Female,USA,22.0,,2023-03-04,100081,2024-01-01,crm,,1,119.08,Two year,Bank,900081,2024-01-01,True
+82,Customer 82,Male,UK,45.0,,2023-03-15,100082,2024-01-01,crm,follow up,41,84.25,Two year,Bank,900082,2024-01-01,False
+83,Customer 83,Female,Germany,45.0,,2023-07-22,100083,2024-01-01,crm,follow up,44,35.85,Two year,Bank,900083,2024-01-01,False
+84,Customer 84,Male,France,45.0,,2023-03-04,100084,2024-01-01,crm,,36,105.85,Month-to-month,Bank,900084,2024-01-01,False
+85,Customer 85,Male,USA,45.0,121000.0,2023-03-15,100085,2024-01-01,crm,,6,34.91,Month-to-month,Cash,900085,2024-01-01,True
+86,Customer 86,Female,USA,45.0,,2023-07-22,100086,2024-01-01,crm,,54,110.72,Two year,Cash,900086,2024-01-01,False
+87,Customer 87,Male,Germany,45.0,,2023-01-15,100087,2024-01-01,crm,,55,90.5,Month-to-month,Card,900087,2024-01-01,False
+88,Customer 88,Female,USA,45.0,,2023-07-22,100088,2024-01-01,crm,vip,18,30.29,One year,Card,900088,2024-01-01,False
+89,Customer 89,Female,UK,45.0,,,100089,2024-01-01,crm,,56,64.18,Two year,Bank,900089,2024-01-01,False
+90,Customer 90,Female,USA,45.0,,2023-03-04,100090,2024-01-01,crm,follow up,11,93.03,Two year,Bank,900090,2024-01-01,False
+91,Customer 91,Male,Germany,45.0,,2023-03-04,100091,2024-01-01,crm,vip,13,23.57,Two year,Bank,900091,2024-01-01,False
+92,Customer 92,Male,USA,45.0,,2023-03-04,100092,2024-01-01,crm,follow up,28,26.5,One year,Bank,900092,2024-01-01,False
+93,Customer 93,Male,France,43.0,,2023-01-15,100093,2024-01-01,crm,,48,40.57,Two year,Cash,900093,2024-01-01,False
+94,Customer 94,Male,UK,45.0,,2023-07-22,100094,2024-01-01,crm,follow up,68,62.68,Two year,Cash,900094,2024-01-01,False
+95,Customer 95,Female,Germany,45.0,,2023-03-04,100095,2024-01-01,crm,,36,65.62,One year,Bank,900095,2024-01-01,False
+96,Customer 96,Male,USA,45.0,71000.0,2023-07-22,100096,2024-01-01,crm,follow up,61,115.83,Month-to-month,Cash,900096,2024-01-01,False
+97,Customer 97,Female,France,45.0,,2023-03-04,100097,2024-01-01,crm,,19,101.13,One year,Card,900097,2024-01-01,False
+98,Customer 98,Female,USA,45.0,,2023-01-15,100098,2024-01-01,crm,vip,70,93.69,Month-to-month,Bank,900098,2024-01-01,False
+99,Customer 99,Female,Germany,45.0,,2023-01-15,100099,2024-01-01,crm,,49,105.79,One year,Cash,900099,2024-01-01,False
+100,Customer 100,Male,Germany,45.0,145000.0,2023-01-15,100100,2024-01-01,crm,follow up,5,64.48,Month-to-month,Card,900100,2024-01-01,True
+101,Customer 101,Male,UK,45.0,83000.0,2023-03-15,100101,2024-01-01,crm,,11,105.14,Month-to-month,Card,900101,2024-01-01,True
+102,Customer 102,Female,Germany,61.0,137000.0,,100102,2024-01-01,crm,,60,80.07,Two year,Card,900102,2024-01-01,False
+103,Customer 103,Male,UK,45.0,,2023-03-15,100103,2024-01-01,crm,vip,38,54.32,Two year,Card,900103,2024-01-01,False
+104,Customer 104,Male,France,45.0,45000.0,2023-03-04,100104,2024-01-01,crm,,18,84.52,Month-to-month,Cash,900104,2024-01-01,False
+105,Customer 105,Female,USA,32.0,,2023-07-22,100105,2024-01-01,crm,vip,24,103.83,One year,Bank,900105,2024-01-01,False
+106,Customer 106,Male,France,45.0,,,100106,2024-01-01,crm,,22,36.38,Month-to-month,Bank,900106,2024-01-01,False
+107,Customer 107,Male,Germany,45.0,34000.0,2023-03-15,100107,2024-01-01,crm,follow up,29,45.02,Month-to-month,Card,900107,2024-01-01,True
+108,Customer 108,Female,France,44.0,,2023-07-22,100108,2024-01-01,crm,vip,21,110.64,Two year,Bank,900108,2024-01-01,False
+109,Customer 109,Female,Germany,45.0,,2023-07-22,100109,2024-01-01,crm,,9,83.08,Two year,Cash,900109,2024-01-01,False
+110,Customer 110,Male,UK,36.0,,2023-03-15,100110,2024-01-01,crm,vip,57,41.22,One year,Bank,900110,2024-01-01,False
+111,Customer 111,Female,USA,45.0,,2023-01-15,100111,2024-01-01,crm,follow up,41,88.2,Two year,Bank,900111,2024-01-01,False
+112,Customer 112,Male,USA,45.0,,2023-01-15,100112,2024-01-01,crm,,30,85.26,One year,Cash,900112,2024-01-01,False
+113,Customer 113,Female,USA,31.0,,2023-01-15,100113,2024-01-01,crm,,26,112.32,Month-to-month,Cash,900113,2024-01-01,False
+114,Customer 114,Female,Germany,45.0,48000.0,2023-03-15,100114,2024-01-01,crm,vip,16,75.41,One year,Card,900114,2024-01-01,False
+115,Customer 115,Female,USA,45.0,,2023-07-22,100115,2024-01-01,crm,vip,18,109.89,One year,Bank,900115,2024-01-01,False
+116,Customer 116,Male,Germany,28.0,20000.0,2023-03-04,100116,2024-01-01,crm,,35,76.32,Month-to-month,Cash,900116,2024-01-01,False
+117,Customer 117,Male,Germany,74.0,,2023-03-04,100117,2024-01-01,crm,vip,64,96.19,Two year,Bank,900117,2024-01-01,True
+118,Customer 118,Female,USA,45.0,,,100118,2024-01-01,crm,follow up,21,54.28,Month-to-month,Bank,900118,2024-01-01,False
+119,Customer 119,Female,USA,45.0,,2023-03-15,100119,2024-01-01,crm,follow up,49,115.98,Month-to-month,Bank,900119,2024-01-01,False
+120,Customer 120,Male,Germany,45.0,36000.0,2023-03-04,100120,2024-01-01,crm,,37,116.68,One year,Cash,900120,2024-01-01,False
+121,Customer 121,Female,USA,45.0,,2023-03-04,100121,2024-01-01,crm,,71,37.82,Month-to-month,Bank,900121,2024-01-01,False
+122,Customer 122,Male,France,45.0,,2023-01-15,100122,2024-01-01,crm,,27,65.83,One year,Bank,900122,2024-01-01,False
+123,Customer 123,Male,UK,32.0,,2023-07-22,100123,2024-01-01,crm,vip,48,76.3,Two year,Cash,900123,2024-01-01,False
+124,Customer 124,Female,UK,45.0,,2023-01-15,100124,2024-01-01,crm,vip,47,68.07,Two year,Card,900124,2024-01-01,False
+125,Customer 125,Female,UK,45.0,,2023-07-22,100125,2024-01-01,crm,vip,70,115.81,Two year,Cash,900125,2024-01-01,True
+126,Customer 126,Male,USA,45.0,,2023-03-15,100126,2024-01-01,crm,follow up,23,56.03,Two year,Card,900126,2024-01-01,False
+127,Customer 127,Male,France,45.0,,2023-07-22,100127,2024-01-01,crm,,39,49.31,Two year,Card,900127,2024-01-01,False
+128,Customer 128,Male,USA,57.0,73000.0,2023-07-22,100128,2024-01-01,crm,follow up,9,62.05,Month-to-month,Cash,900128,2024-01-01,True
+129,Customer 129,Female,Germany,45.0,,2023-07-22,100129,2024-01-01,crm,,10,40.58,Two year,Cash,900129,2024-01-01,False
+130,Customer 130,Female,Germany,72.0,,2023-03-04,100130,2024-01-01,crm,vip,16,95.32,Month-to-month,Cash,900130,2024-01-01,False
+131,Customer 131,Male,USA,45.0,,2023-03-15,100131,2024-01-01,crm,,15,88.42,Month-to-month,Card,900131,2024-01-01,False
+132,Customer 132,Female,USA,45.0,,2023-01-15,100132,2024-01-01,crm,follow up,1,46.66,One year,Card,900132,2024-01-01,False
+133,Customer 133,Male,USA,45.0,,2023-01-15,100133,2024-01-01,crm,,36,51.3,Two year,Cash,900133,2024-01-01,False
+134,Customer 134,Male,Germany,45.0,,2023-01-15,100134,2024-01-01,crm,vip,2,71.52,One year,Cash,900134,2024-01-01,False
+135,Customer 135,Female,USA,45.0,69000.0,2023-03-04,100135,2024-01-01,crm,,69,102.43,Month-to-month,Cash,900135,2024-01-01,False
+136,Customer 136,Female,Germany,34.0,,2023-03-15,100136,2024-01-01,crm,,26,118.82,Month-to-month,Card,900136,2024-01-01,False
+137,Customer 137,Male,USA,27.0,,2023-01-15,100137,2024-01-01,crm,,27,113.21,One year,Cash,900137,2024-01-01,False
+138,Customer 138,Male,UK,45.0,,,100138,2024-01-01,crm,vip,66,115.64,Two year,Bank,900138,2024-01-01,False
+139,Customer 139,Male,USA,45.0,143000.0,2023-07-22,100139,2024-01-01,crm,,52,119.27,Month-to-month,Card,900139,2024-01-01,False
+140,Customer 140,Female,France,45.0,,2023-07-22,100140,2024-01-01,crm,vip,55,31.05,Two year,Bank,900140,2024-01-01,False
+141,Customer 141,Female,USA,45.0,126000.0,2023-03-04,100141,2024-01-01,crm,vip,66,34.79,One year,Cash,900141,2024-01-01,True
+142,Customer 142,Female,Germany,45.0,,2023-07-22,100142,2024-01-01,crm,,3,115.36,Month-to-month,Bank,900142,2024-01-01,True
+143,Customer 143,Male,Germany,45.0,128000.0,2023-01-15,100143,2024-01-01,crm,follow up,69,85.34,Month-to-month,Bank,900143,2024-01-01,False
+144,Customer 144,Male,USA,45.0,53000.0,2023-01-15,100144,2024-01-01,crm,,47,75.13,One year,Bank,900144,2024-01-01,False
+145,Customer 145,Female,UK,43.0,,2023-03-15,100145,2024-01-01,crm,vip,33,74.35,Month-to-month,Card,900145,2024-01-01,False
+146,Customer 146,Male,USA,45.0,37000.0,2023-07-22,100146,2024-01-01,crm,follow up,20,34.94,Two year,Card,900146,2024-01-01,False
+147,Customer 147,Female,USA,26.0,,2023-01-15,100147,2024-01-01,crm,follow up,21,50.93,Two year,Cash,900147,2024-01-01,False
+148,Customer 148,Male,France,45.0,,,100148,2024-01-01,crm,,13,76.05,One year,Bank,900148,2024-01-01,False
+149,Customer 149,Female,USA,45.0,,,100149,2024-01-01,crm,,70,95.0,Two year,Card,900149,2024-01-01,False
+150,Customer 150,Female,USA,45.0,,2023-01-15,100150,2024-01-01,crm,,31,62.27,Month-to-month,Card,900150,2024-01-01,False
+151,Customer 151,Female,UK,38.0,,,100151,2024-01-01,crm,vip,31,109.54,One year,Card,900151,2024-01-01,False
+152,Customer 152,Female,Germany,45.0,,2023-03-04,100152,2024-01-01,crm,follow up,12,103.48,Two year,Bank,900152,2024-01-01,False
+153,Customer 153,Male,Germany,29.0,,2023-07-22,100153,2024-01-01,crm,,55,53.55,Month-to-month,Card,900153,2024-01-01,False
+154,Customer 154,Female,UK,45.0,,2023-07-22,100154,2024-01-01,crm,,7,65.26,Two year,Card,900154,2024-01-01,False
+155,Customer 155,Male,USA,45.0,113000.0,2023-07-22,100155,2024-01-01,crm,,5,80.4,Month-to-month,Card,900155,2024-01-01,True
+156,Customer 156,Male,France,26.0,100000.0,2023-01-15,100156,2024-01-01,crm,follow up,9,45.98,One year,Card,900156,2024-01-01,False
+157,Customer 157,Female,UK,26.0,36000.0,2023-03-15,100157,2024-01-01,crm,,44,84.88,One year,Bank,900157,2024-01-01,False
+158,Customer 158,Female,USA,45.0,76000.0,2023-03-04,100158,2024-01-01,crm,vip,10,71.22,One year,Card,900158,2024-01-01,False
+159,Customer 159,Female,USA,45.0,,2023-03-04,100159,2024-01-01,crm,follow up,20,37.21,One year,Bank,900159,2024-01-01,False
+160,Customer 160,Female,Germany,45.0,,2023-01-15,100160,2024-01-01,crm,,14,90.62,One year,Card,900160,2024-01-01,False
+161,Customer 161,Female,Germany,45.0,,2023-03-15,100161,2024-01-01,crm,vip,6,69.78,Two year,Cash,900161,2024-01-01,False
+162,Customer 162,Male,UK,51.0,,,100162,2024-01-01,crm,,21,101.87,Month-to-month,Bank,900162,2024-01-01,False
+163,Customer 163,Male,Germany,45.0,,2023-07-22,100163,2024-01-01,crm,vip,65,23.96,Month-to-month,Card,900163,2024-01-01,False
+164,Customer 164,Male,USA,45.0,,2023-03-15,100164,2024-01-01,crm,,67,94.25,Two year,Card,900164,2024-01-01,False
+165,Customer 165,Male,France,45.0,,,100165,2024-01-01,crm,vip,66,60.44,Month-to-month,Cash,900165,2024-01-01,False
+166,Customer 166,Female,USA,65.0,,2023-03-04,100166,2024-01-01,crm,follow up,27,63.33,Two year,Bank,900166,2024-01-01,False
+167,Customer 167,Female,Germany,41.0,,2023-03-15,100167,2024-01-01,crm,,12,44.02,One year,Card,900167,2024-01-01,False
+168,Customer 168,Male,USA,45.0,97000.0,,100168,2024-01-01,crm,vip,29,86.19,Month-to-month,Card,900168,2024-01-01,False
+169,Customer 169,Male,USA,45.0,,2023-03-04,100169,2024-01-01,crm,follow up,53,28.78,Two year,Bank,900169,2024-01-01,False
+170,Customer 170,Female,USA,45.0,,2023-01-15,100170,2024-01-01,crm,,47,53.5,One year,Cash,900170,2024-01-01,False
+171,Customer 171,Female,USA,45.0,,2023-01-15,100171,2024-01-01,crm,,43,42.26,One year,Bank,900171,2024-01-01,False
+172,Customer 172,Female,UK,45.0,,2023-03-15,100172,2024-01-01,crm,,56,26.91,Month-to-month,Card,900172,2024-01-01,False
+173,Customer 173,Male,USA,21.0,,2023-03-15,100173,2024-01-01,crm,,8,74.3,One year,Cash,900173,2024-01-01,False
+174,Customer 174,Male,UK,24.0,,2023-07-22,100174,2024-01-01,crm,,13,58.24,Two year,Bank,900174,2024-01-01,True
+175,Customer 175,Male,Germany,45.0,,2023-01-15,100175,2024-01-01,crm,vip,33,39.4,Two year,Bank,900175,2024-01-01,False
+176,Customer 176,Female,USA,45.0,,2023-07-22,100176,2024-01-01,crm,follow up,58,49.19,Two year,Bank,900176,2024-01-01,False
+177,Customer 177,Male,France,45.0,,2023-01-15,100177,2024-01-01,crm,vip,17,34.13,One year,Bank,900177,2024-01-01,True
+178,Customer 178,Female,France,20.0,,2023-01-15,100178,2024-01-01,crm,vip,17,86.0,Month-to-month,Cash,900178,2024-01-01,False
+179,Customer 179,Female,Germany,45.0,,2023-03-15,100179,2024-01-01,crm,,24,77.81,Two year,Card,900179,2024-01-01,False
+180,Customer 180,Male,USA,45.0,,2023-03-15,100180,2024-01-01,crm,vip,10,31.29,One year,Card,900180,2024-01-01,False
+181,Customer 181,Female,Germany,45.0,,2023-07-22,100181,2024-01-01,crm,,7,42.1,Two year,Bank,900181,2024-01-01,False
+182,Customer 182,Male,Germany,45.0,,2023-07-22,100182,2024-01-01,crm,,45,37.05,One year,Bank,900182,2024-01-01,True
+183,Customer 183,Male,USA,27.0,26000.0,2023-01-15,100183,2024-01-01,crm,,36,36.18,One year,Bank,900183,2024-01-01,False
+184,Customer 184,Male,USA,62.0,27000.0,2023-03-15,100184,2024-01-01,crm,,23,20.36,Month-to-month,Cash,900184,2024-01-01,False
+185,Customer 185,Female,USA,65.0,,2023-03-15,100185,2024-01-01,crm,,56,106.47,Two year,Card,900185,2024-01-01,False
+186,Customer 186,Female,Germany,45.0,,2023-01-15,100186,2024-01-01,crm,,34,91.68,Month-to-month,Bank,900186,2024-01-01,True
+187,Customer 187,Male,UK,69.0,,2023-01-15,100187,2024-01-01,crm,,12,87.15,Month-to-month,Card,900187,2024-01-01,False
+188,Customer 188,Male,UK,45.0,,2023-03-04,100188,2024-01-01,crm,follow up,6,107.41,Month-to-month,Bank,900188,2024-01-01,False
+189,Customer 189,Male,USA,45.0,92000.0,2023-03-04,100189,2024-01-01,crm,vip,41,104.67,Two year,Cash,900189,2024-01-01,False
+190,Customer 190,Male,Germany,45.0,,2023-01-15,100190,2024-01-01,crm,follow up,57,116.93,Two year,Cash,900190,2024-01-01,False
+191,Customer 191,Male,UK,45.0,140000.0,,100191,2024-01-01,crm,,69,39.65,Two year,Card,900191,2024-01-01,False
+192,Customer 192,Female,UK,70.0,,2023-07-22,100192,2024-01-01,crm,,62,92.74,Month-to-month,Bank,900192,2024-01-01,False
+193,Customer 193,Male,USA,36.0,,2023-07-22,100193,2024-01-01,crm,,46,71.05,Two year,Card,900193,2024-01-01,False
+194,Customer 194,Female,France,45.0,,,100194,2024-01-01,crm,vip,36,85.95,Month-to-month,Cash,900194,2024-01-01,False
+195,Customer 195,Male,USA,45.0,,2023-03-15,100195,2024-01-01,crm,,3,61.88,Two year,Cash,900195,2024-01-01,False
+196,Customer 196,Female,UK,45.0,,2023-03-04,100196,2024-01-01,crm,,24,24.36,One year,Bank,900196,2024-01-01,False
+197,Customer 197,Female,Germany,75.0,128000.0,2023-03-04,100197,2024-01-01,crm,,16,97.0,Two year,Bank,900197,2024-01-01,True
+198,Customer 198,Male,USA,45.0,,2023-07-22,100198,2024-01-01,crm,,48,71.74,Month-to-month,Cash,900198,2024-01-01,False
+199,Customer 199,Male,Germany,66.0,,,100199,2024-01-01,crm,,66,74.25,Two year,Bank,900199,2024-01-01,False
+200,Customer 200,Female,France,45.0,,2023-07-22,100200,2024-01-01,crm,vip,38,60.2,Two year,Card,900200,2024-01-01,False
+201,Customer 201,Male,USA,45.0,,,100201,2024-01-01,crm,,33,68.26,Two year,Cash,900201,2024-01-01,False
+202,Customer 202,Male,USA,45.0,,2023-03-04,100202,2024-01-01,crm,vip,28,92.93,One year,Cash,900202,2024-01-01,False
+203,Customer 203,Female,USA,45.0,86000.0,2023-03-15,100203,2024-01-01,crm,,40,65.5,Month-to-month,Bank,900203,2024-01-01,False
+204,Customer 204,Female,Germany,45.0,,2023-07-22,100204,2024-01-01,crm,vip,27,102.6,One year,Cash,900204,2024-01-01,False
+205,Customer 205,Female,USA,58.0,,2023-07-22,100205,2024-01-01,crm,follow up,33,83.52,Two year,Card,900205,2024-01-01,False
+206,Customer 206,Male,USA,45.0,,2023-07-22,100206,2024-01-01,crm,,35,74.84,One year,Bank,900206,2024-01-01,False
+207,Customer 207,Female,USA,45.0,,2023-07-22,100207,2024-01-01,crm,follow up,53,23.24,Two year,Cash,900207,2024-01-01,False
+208,Customer 208,Female,France,45.0,66000.0,2023-07-22,100208,2024-01-01,crm,follow up,40,100.44,Month-to-month,Bank,900208,2024-01-01,False
+209,Customer 209,Male,USA,58.0,,2023-07-22,100209,2024-01-01,crm,,44,67.22,Two year,Cash,900209,2024-01-01,False
+210,Customer 210,Male,UK,45.0,136000.0,,100210,2024-01-01,crm,follow up,24,68.77,One year,Card,900210,2024-01-01,False
+211,Customer 211,Male,France,45.0,103000.0,2023-07-22,100211,2024-01-01,crm,follow up,35,109.63,Month-to-month,Cash,900211,2024-01-01,False
+212,Customer 212,Male,USA,45.0,,,100212,2024-01-01,crm,vip,17,109.54,One year,Bank,900212,2024-01-01,False
+213,Customer 213,Male,UK,45.0,,,100213,2024-01-01,crm,,37,62.12,One year,Card,900213,2024-01-01,False
+214,Customer 214,Female,UK,45.0,,2023-07-22,100214,2024-01-01,crm,,24,91.28,One year,Bank,900214,2024-01-01,False
+215,Customer 215,Female,USA,43.0,111000.0,2023-03-04,100215,2024-01-01,crm,vip,8,112.21,Month-to-month,Bank,900215,2024-01-01,True
+216,Customer 216,Female,Germany,21.0,,2023-07-22,100216,2024-01-01,crm,vip,5,105.17,Month-to-month,Bank,900216,2024-01-01,True
+217,Customer 217,Male,USA,45.0,,,100217,2024-01-01,crm,,55,39.23,One year,Cash,900217,2024-01-01,False
+218,Customer 218,Female,Germany,45.0,53000.0,2023-03-15,100218,2024-01-01,crm,follow up,16,31.14,One year,Bank,900218,2024-01-01,False
+219,Customer 219,Female,Germany,45.0,,2023-07-22,100219,2024-01-01,crm,follow up,66,59.75,Two year,Bank,900219,2024-01-01,False
+220,Customer 220,Male,UK,45.0,,2023-03-15,100220,2024-01-01,crm,vip,3,59.2,Month-to-month,Bank,900220,2024-01-01,True
+221,Customer 221,Female,Germany,45.0,,2023-07-22,100221,2024-01-01,crm,,2,93.57,Month-to-month,Bank,900221,2024-01-01,True
+222,Customer 222,Female,UK,45.0,,2023-03-04,100222,2024-01-01,crm,follow up,43,32.67,Month-to-month,Cash,900222,2024-01-01,False
+223,Customer 223,Female,Germany,57.0,,2023-03-04,100223,2024-01-01,crm,follow up,25,40.69,Two year,Cash,900223,2024-01-01,False
+224,Customer 224,Male,USA,45.0,,,100224,2024-01-01,crm,,30,49.38,Month-to-month,Cash,900224,2024-01-01,False
+225,Customer 225,Female,USA,31.0,,,100225,2024-01-01,crm,,31,43.33,Two year,Cash,900225,2024-01-01,True
+226,Customer 226,Male,USA,45.0,,2023-03-04,100226,2024-01-01,crm,,42,32.13,Two year,Bank,900226,2024-01-01,False
+227,Customer 227,Female,Germany,45.0,,2023-03-15,100227,2024-01-01,crm,follow up,67,84.44,Two year,Card,900227,2024-01-01,False
+228,Customer 228,Female,USA,51.0,132000.0,,100228,2024-01-01,crm,,66,66.02,Month-to-month,Card,900228,2024-01-01,False
+229,Customer 229,Male,Germany,45.0,,,100229,2024-01-01,crm,,57,51.13,One year,Bank,900229,2024-01-01,False
+230,Customer 230,Female,Germany,45.0,,2023-07-22,100230,2024-01-01,crm,,2,110.23,Month-to-month,Bank,900230,2024-01-01,True
+231,Customer 231,Male,Germany,73.0,,2023-07-22,100231,2024-01-01,crm,follow up,52,44.04,One year,Card,900231,2024-01-01,False
+232,Customer 232,Female,USA,45.0,,2023-07-22,100232,2024-01-01,crm,,43,78.72,One year,Cash,900232,2024-01-01,False
+233,Customer 233,Female,France,41.0,25000.0,2023-03-04,100233,2024-01-01,crm,,5,71.97,Two year,Bank,900233,2024-01-01,False
+234,Customer 234,Male,Germany,45.0,,2023-07-22,100234,2024-01-01,crm,,35,66.94,Two year,Bank,900234,2024-01-01,False
+235,Customer 235,Male,USA,45.0,,,100235,2024-01-01,crm,,60,118.7,Month-to-month,Cash,900235,2024-01-01,False
+236,Customer 236,Male,Germany,45.0,84000.0,2023-03-04,100236,2024-01-01,crm,vip,49,66.19,Two year,Cash,900236,2024-01-01,False
+237,Customer 237,Male,UK,45.0,,,100237,2024-01-01,crm,vip,23,97.79,One year,Cash,900237,2024-01-01,False
+238,Customer 238,Female,France,49.0,,2023-03-04,100238,2024-01-01,crm,vip,50,35.98,Month-to-month,Bank,900238,2024-01-01,True
+239,Customer 239,Female,Germany,58.0,,,100239,2024-01-01,crm,follow up,57,113.88,Month-to-month,Bank,900239,2024-01-01,False
+240,Customer 240,Male,Germany,45.0,96000.0,2023-01-15,100240,2024-01-01,crm,,60,107.12,Two year,Card,900240,2024-01-01,False
+241,Customer 241,Female,UK,48.0,,,100241,2024-01-01,crm,,9,29.35,Month-to-month,Card,900241,2024-01-01,True
+242,Customer 242,Female,France,62.0,74000.0,2023-07-22,100242,2024-01-01,crm,,48,20.48,One year,Cash,900242,2024-01-01,False
+243,Customer 243,Male,France,29.0,127000.0,2023-01-15,100243,2024-01-01,crm,vip,59,48.93,Two year,Bank,900243,2024-01-01,True
+244,Customer 244,Female,UK,45.0,,2023-07-22,100244,2024-01-01,crm,,67,56.84,Two year,Card,900244,2024-01-01,False
+245,Customer 245,Male,USA,45.0,147000.0,2023-01-15,100245,2024-01-01,crm,follow up,13,71.06,One year,Card,900245,2024-01-01,False
+246,Customer 246,Male,France,45.0,37000.0,2023-07-22,100246,2024-01-01,crm,,48,49.02,Two year,Card,900246,2024-01-01,False
+247,Customer 247,Female,UK,44.0,,2023-03-15,100247,2024-01-01,crm,,29,107.76,One year,Bank,900247,2024-01-01,False
+248,Customer 248,Female,USA,45.0,22000.0,2023-01-15,100248,2024-01-01,crm,,72,76.34,One year,Card,900248,2024-01-01,False
+249,Customer 249,Male,USA,48.0,,2023-07-22,100249,2024-01-01,crm,,48,104.34,One year,Cash,900249,2024-01-01,False
+250,Customer 250,Male,USA,45.0,,,100250,2024-01-01,crm,follow up,69,84.17,Month-to-month,Bank,900250,2024-01-01,False
+251,Customer 251,Female,France,45.0,33000.0,2023-01-15,100251,2024-01-01,crm,,15,53.86,One year,Card,900251,2024-01-01,False
+252,Customer 252,Male,France,61.0,,2023-03-04,100252,2024-01-01,crm,,47,42.23,Month-to-month,Card,900252,2024-01-01,False
+253,Customer 253,Female,Germany,45.0,,2023-07-22,100253,2024-01-01,crm,,26,86.48,One year,Bank,900253,2024-01-01,False
+254,Customer 254,Female,UK,45.0,,2023-07-22,100254,2024-01-01,crm,follow up,52,45.84,Month-to-month,Cash,900254,2024-01-01,False
+255,Customer 255,Female,USA,45.0,,2023-01-15,100255,2024-01-01,crm,vip,59,36.46,One year,Cash,900255,2024-01-01,False
+256,Customer 256,Male,France,45.0,,2023-03-15,100256,2024-01-01,crm,follow up,8,22.88,Month-to-month,Bank,900256,2024-01-01,True
+257,Customer 257,Female,France,45.0,,2023-01-15,100257,2024-01-01,crm,vip,52,87.57,One year,Cash,900257,2024-01-01,False
+258,Customer 258,Male,USA,45.0,,2023-03-15,100258,2024-01-01,crm,,61,100.09,Two year,Card,900258,2024-01-01,False
+259,Customer 259,Male,UK,45.0,108000.0,,100259,2024-01-01,crm,follow up,9,84.52,Two year,Card,900259,2024-01-01,False
+260,Customer 260,Female,USA,45.0,99000.0,2023-07-22,100260,2024-01-01,crm,follow up,34,101.13,Two year,Card,900260,2024-01-01,False
+261,Customer 261,Female,USA,34.0,,,100261,2024-01-01,crm,,22,85.87,One year,Bank,900261,2024-01-01,False
+262,Customer 262,Male,UK,40.0,,,100262,2024-01-01,crm,vip,71,73.42,Two year,Bank,900262,2024-01-01,False
+263,Customer 263,Male,USA,45.0,,2023-03-15,100263,2024-01-01,crm,,15,33.48,One year,Bank,900263,2024-01-01,False
+264,Customer 264,Female,UK,45.0,,2023-07-22,100264,2024-01-01,crm,,26,74.62,Two year,Cash,900264,2024-01-01,False
+265,Customer 265,Female,USA,45.0,,2023-07-22,100265,2024-01-01,crm,,29,87.19,Two year,Bank,900265,2024-01-01,False
+266,Customer 266,Female,USA,56.0,,,100266,2024-01-01,crm,,17,95.31,One year,Bank,900266,2024-01-01,False
+267,Customer 267,Male,USA,45.0,,2023-03-04,100267,2024-01-01,crm,follow up,58,74.98,Month-to-month,Card,900267,2024-01-01,False
+268,Customer 268,Male,Germany,45.0,85000.0,2023-03-04,100268,2024-01-01,crm,,14,28.08,Two year,Card,900268,2024-01-01,False
+269,Customer 269,Female,Germany,23.0,33000.0,,100269,2024-01-01,crm,vip,66,92.81,One year,Card,900269,2024-01-01,True
+270,Customer 270,Female,Germany,49.0,121000.0,2023-01-15,100270,2024-01-01,crm,vip,23,110.57,Two year,Card,900270,2024-01-01,False
+271,Customer 271,Male,Germany,32.0,,2023-03-15,100271,2024-01-01,crm,follow up,3,81.86,Month-to-month,Bank,900271,2024-01-01,True
+272,Customer 272,Female,USA,45.0,64000.0,2023-03-04,100272,2024-01-01,crm,vip,12,103.02,Two year,Bank,900272,2024-01-01,False
+273,Customer 273,Male,Germany,75.0,,,100273,2024-01-01,crm,follow up,69,43.87,Month-to-month,Card,900273,2024-01-01,False
+274,Customer 274,Male,USA,45.0,,2023-03-04,100274,2024-01-01,crm,follow up,41,109.86,One year,Cash,900274,2024-01-01,False
+275,Customer 275,Female,USA,45.0,,2023-07-22,100275,2024-01-01,crm,,4,33.17,One year,Card,900275,2024-01-01,False
+276,Customer 276,Male,Germany,45.0,,2023-03-15,100276,2024-01-01,crm,,10,22.25,Two year,Card,900276,2024-01-01,False
+277,Customer 277,Female,France,30.0,,2023-01-15,100277,2024-01-01,crm,vip,7,35.97,One year,Cash,900277,2024-01-01,False
+278,Customer 278,Female,USA,45.0,,2023-01-15,100278,2024-01-01,crm,,36,50.07,Two year,Card,900278,2024-01-01,False
+279,Customer 279,Female,USA,45.0,142000.0,2023-03-04,100279,2024-01-01,crm,,27,118.98,One year,Cash,900279,2024-01-01,True
+280,Customer 280,Male,USA,65.0,,,100280,2024-01-01,crm,,36,75.31,Month-to-month,Card,900280,2024-01-01,False
+281,Customer 281,Female,UK,45.0,,2023-03-15,100281,2024-01-01,crm,,37,42.77,Month-to-month,Cash,900281,2024-01-01,False
+282,Customer 282,Male,USA,45.0,,2023-03-04,100282,2024-01-01,crm,follow up,71,68.4,Two year,Card,900282,2024-01-01,False
+283,Customer 283,Male,USA,45.0,,,100283,2024-01-01,crm,,49,89.93,One year,Bank,900283,2024-01-01,False
+284,Customer 284,Female,UK,45.0,,2023-01-15,100284,2024-01-01,crm,vip,59,102.95,Month-to-month,Bank,900284,2024-01-01,False
+285,Customer 285,Female,USA,45.0,,2023-01-15,100285,2024-01-01,crm,follow up,35,94.49,Two year,Card,900285,2024-01-01,False
+286,Customer 286,Male,Germany,45.0,,2023-03-15,100286,2024-01-01,crm,,18,89.5,One year,Card,900286,2024-01-01,False
+287,Customer 287,Female,UK,45.0,,2023-07-22,100287,2024-01-01,crm,,29,29.5,One year,Bank,900287,2024-01-01,False
+288,Customer 288,Male,USA,45.0,131000.0,2023-07-22,100288,2024-01-01,crm,,60,70.98,Two year,Bank,900288,2024-01-01,False
+289,Customer 289,Male,Germany,45.0,,2023-03-15,100289,2024-01-01,crm,,4,82.42,Two year,Cash,900289,2024-01-01,False
+290,Customer 290,Male,USA,71.0,,2023-03-15,100290,2024-01-01,crm,,46,60.12,Month-to-month,Bank,900290,2024-01-01,False
+291,Customer 291,Female,Germany,45.0,,2023-01-15,100291,2024-01-01,crm,,64,93.22,Two year,Bank,900291,2024-01-01,False
+292,Customer 292,Female,France,45.0,,2023-03-04,100292,2024-01-01,crm,vip,21,72.46,Month-to-month,Bank,900292,2024-01-01,False
+293,Customer 293,Female,UK,49.0,,2023-07-22,100293,2024-01-01,crm,,24,67.18,Two year,Card,900293,2024-01-01,False
+294,Customer 294,Female,USA,45.0,113000.0,2023-03-15,100294,2024-01-01,crm,vip,26,85.37,Month-to-month,Bank,900294,2024-01-01,False
+295,Customer 295,Male,Germany,72.0,,,100295,2024-01-01,crm,,13,46.37,One year,Cash,900295,2024-01-01,False
+296,Customer 296,Male,USA,45.0,,,100296,2024-01-01,crm,,16,68.24,One year,Cash,900296,2024-01-01,False
+297,Customer 297,Male,UK,45.0,134000.0,,100297,2024-01-01,crm,,28,51.57,Month-to-month,Bank,900297,2024-01-01,False
+298,Customer 298,Male,USA,45.0,,2023-01-15,100298,2024-01-01,crm,vip,33,99.31,Month-to-month,Cash,900298,2024-01-01,False
+299,Customer 299,Male,Germany,70.0,24000.0,2023-03-15,100299,2024-01-01,crm,vip,71,80.15,Two year,Card,900299,2024-01-01,False
+300,Customer 300,Male,UK,45.0,,2023-01-15,100300,2024-01-01,crm,vip,22,49.21,Month-to-month,Cash,900300,2024-01-01,False
+301,Customer 301,Male,France,29.0,89000.0,2023-07-22,100301,2024-01-01,crm,follow up,56,101.52,One year,Cash,900301,2024-01-01,False
+302,Customer 302,Male,Germany,45.0,48000.0,2023-01-15,100302,2024-01-01,crm,follow up,56,38.91,Month-to-month,Card,900302,2024-01-01,False
+303,Customer 303,Female,Germany,45.0,,,100303,2024-01-01,crm,follow up,53,37.23,Month-to-month,Bank,900303,2024-01-01,True
+304,Customer 304,Female,Germany,28.0,,,100304,2024-01-01,crm,,29,84.44,One year,Bank,900304,2024-01-01,False
+305,Customer 305,Female,USA,45.0,,2023-03-15,100305,2024-01-01,crm,vip,36,34.89,Month-to-month,Cash,900305,2024-01-01,False
+306,Customer 306,Female,Germany,45.0,122000.0,2023-03-04,100306,2024-01-01,crm,,25,36.13,Two year,Cash,900306,2024-01-01,False
+307,Customer 307,Female,USA,45.0,,2023-01-15,100307,2024-01-01,crm,,25,63.97,Two year,Bank,900307,2024-01-01,False
+308,Customer 308,Male,USA,45.0,149000.0,2023-03-15,100308,2024-01-01,crm,,13,21.67,Month-to-month,Bank,900308,2024-01-01,False
+309,Customer 309,Female,Germany,45.0,31000.0,2023-01-15,100309,2024-01-01,crm,vip,5,108.95,Two year,Cash,900309,2024-01-01,False
+310,Customer 310,Female,Germany,35.0,,2023-01-15,100310,2024-01-01,crm,,14,73.79,Month-to-month,Bank,900310,2024-01-01,False
+311,Customer 311,Female,USA,45.0,,2023-03-04,100311,2024-01-01,crm,,30,113.95,Month-to-month,Cash,900311,2024-01-01,False
+312,Customer 312,Male,USA,45.0,,,100312,2024-01-01,crm,,45,57.16,One year,Card,900312,2024-01-01,True
+313,Customer 313,Female,USA,45.0,,,100313,2024-01-01,crm,vip,21,89.13,Month-to-month,Bank,900313,2024-01-01,False
+314,Customer 314,Male,USA,65.0,,,100314,2024-01-01,crm,,71,101.25,Month-to-month,Card,900314,2024-01-01,False
+315,Customer 315,Female,Germany,45.0,,,100315,2024-01-01,crm,follow up,7,39.74,Month-to-month,Card,900315,2024-01-01,True
+316,Customer 316,Female,UK,37.0,,2023-03-15,100316,2024-01-01,crm,,33,45.27,Month-to-month,Bank,900316,2024-01-01,False
+317,Customer 317,Male,Germany,45.0,,2023-03-15,100317,2024-01-01,crm,,63,38.24,Month-to-month,Bank,900317,2024-01-01,False
+318,Customer 318,Male,Germany,45.0,,2023-03-15,100318,2024-01-01,crm,vip,60,42.32,Month-to-month,Cash,900318,2024-01-01,False
+319,Customer 319,Male,UK,45.0,,2023-07-22,100319,2024-01-01,crm,,53,31.41,Month-to-month,Card,900319,2024-01-01,False
+320,Customer 320,Male,Germany,45.0,110000.0,,100320,2024-01-01,crm,,15,52.93,Month-to-month,Bank,900320,2024-01-01,False
+321,Customer 321,Female,France,45.0,,2023-03-15,100321,2024-01-01,crm,,63,98.03,Month-to-month,Card,900321,2024-01-01,False
+322,Customer 322,Male,Germany,45.0,,2023-03-04,100322,2024-01-01,crm,,45,23.67,One year,Bank,900322,2024-01-01,False
+323,Customer 323,Female,UK,24.0,125000.0,2023-07-22,100323,2024-01-01,crm,follow up,69,59.25,One year,Bank,900323,2024-01-01,False
+324,Customer 324,Male,USA,45.0,,2023-07-22,100324,2024-01-01,crm,follow up,10,81.87,Two year,Cash,900324,2024-01-01,False
+325,Customer 325,Male,France,45.0,,,100325,2024-01-01,crm,follow up,57,87.68,Two year,Cash,900325,2024-01-01,False
+326,Customer 326,Female,USA,45.0,,2023-03-04,100326,2024-01-01,crm,,61,47.45,One year,Bank,900326,2024-01-01,False
+327,Customer 327,Male,USA,45.0,,,100327,2024-01-01,crm,,28,86.09,Two year,Card,900327,2024-01-01,False
+328,Customer 328,Male,UK,45.0,,2023-03-15,100328,2024-01-01,crm,follow up,60,115.28,Month-to-month,Cash,900328,2024-01-01,False
+329,Customer 329,Male,USA,45.0,,,100329,2024-01-01,crm,vip,66,106.47,Month-to-month,Cash,900329,2024-01-01,False
+330,Customer 330,Male,Germany,45.0,,2023-03-04,100330,2024-01-01,crm,,48,109.92,One year,Card,900330,2024-01-01,False
+331,Customer 331,Male,France,45.0,22000.0,,100331,2024-01-01,crm,,2,45.89,One year,Cash,900331,2024-01-01,False
+332,Customer 332,Male,Germany,45.0,,2023-07-22,100332,2024-01-01,crm,follow up,21,104.31,One year,Card,900332,2024-01-01,False
+333,Customer 333,Female,Germany,45.0,,2023-03-04,100333,2024-01-01,crm,vip,39,63.4,Two year,Cash,900333,2024-01-01,False
+334,Customer 334,Male,USA,45.0,64000.0,2023-03-04,100334,2024-01-01,crm,vip,27,34.27,One year,Cash,900334,2024-01-01,False
+335,Customer 335,Male,Germany,45.0,,,100335,2024-01-01,crm,,1,85.78,Month-to-month,Bank,900335,2024-01-01,True
+336,Customer 336,Female,USA,21.0,110000.0,2023-07-22,100336,2024-01-01,crm,,57,92.02,Two year,Cash,900336,2024-01-01,False
+337,Customer 337,Male,USA,63.0,,2023-01-15,100337,2024-01-01,crm,,30,53.67,Month-to-month,Card,900337,2024-01-01,False
+338,Customer 338,Female,USA,45.0,,,100338,2024-01-01,crm,,11,48.69,One year,Bank,900338,2024-01-01,False
+339,Customer 339,Male,USA,44.0,,,100339,2024-01-01,crm,,70,88.84,Month-to-month,Card,900339,2024-01-01,False
+340,Customer 340,Male,USA,45.0,,,100340,2024-01-01,crm,follow up,12,93.11,Month-to-month,Bank,900340,2024-01-01,False
+341,Customer 341,Male,France,45.0,,2023-03-04,100341,2024-01-01,crm,vip,4,97.93,One year,Cash,900341,2024-01-01,False
+342,Customer 342,Female,USA,35.0,,2023-03-15,100342,2024-01-01,crm,follow up,23,81.62,Two year,Cash,900342,2024-01-01,False
+343,Customer 343,Male,Germany,19.0,,,100343,2024-01-01,crm,,54,109.51,Month-to-month,Cash,900343,2024-01-01,False
+344,Customer 344,Female,USA,45.0,,2023-01-15,100344,2024-01-01,crm,,60,50.01,One year,Bank,900344,2024-01-01,False
+345,Customer 345,Male,UK,45.0,,2023-03-04,100345,2024-01-01,crm,follow up,14,63.53,Month-to-month,Bank,900345,2024-01-01,True
+346,Customer 346,Male,USA,45.0,,2023-07-22,100346,2024-01-01,crm,,26,52.18,Two year,Cash,900346,2024-01-01,False
+347,Customer 347,Female,USA,45.0,,2023-01-15,100347,2024-01-01,crm,,49,59.32,Two year,Bank,900347,2024-01-01,False
+348,Customer 348,Female,USA,45.0,,2023-07-22,100348,2024-01-01,crm,vip,15,78.63,Two year,Bank,900348,2024-01-01,False
+349,Customer 349,Male,USA,45.0,,2023-01-15,100349,2024-01-01,crm,,34,107.39,Month-to-month,Card,900349,2024-01-01,False
+350,Customer 350,Female,UK,45.0,,2023-07-22,100350,2024-01-01,crm,vip,57,58.98,Two year,Bank,900350,2024-01-01,True
+351,Customer 351,Male,USA,45.0,91000.0,2023-03-04,100351,2024-01-01,crm,,47,35.26,Two year,Card,900351,2024-01-01,False
+352,Customer 352,Female,France,26.0,,,100352,2024-01-01,crm,,55,34.87,One year,Card,900352,2024-01-01,True
+353,Customer 353,Male,Germany,45.0,,2023-03-04,100353,2024-01-01,crm,,16,76.09,One year,Card,900353,2024-01-01,False
+354,Customer 354,Female,Germany,45.0,,,100354,2024-01-01,crm,,5,81.39,Two year,Bank,900354,2024-01-01,False
+355,Customer 355,Female,UK,45.0,,,100355,2024-01-01,crm,vip,57,91.03,Month-to-month,Card,900355,2024-01-01,False
+356,Customer 356,Male,USA,45.0,52000.0,,100356,2024-01-01,crm,,14,60.51,Two year,Cash,900356,2024-01-01,False
+357,Customer 357,Male,UK,45.0,,2023-03-04,100357,2024-01-01,crm,,3,101.06,One year,Card,900357,2024-01-01,False
+358,Customer 358,Female,France,45.0,,2023-03-15,100358,2024-01-01,crm,,61,28.87,Month-to-month,Card,900358,2024-01-01,True
+359,Customer 359,Male,Germany,45.0,69000.0,2023-03-04,100359,2024-01-01,crm,,65,42.25,Month-to-month,Card,900359,2024-01-01,False
+360,Customer 360,Female,USA,45.0,,2023-07-22,100360,2024-01-01,crm,follow up,71,39.45,Two year,Card,900360,2024-01-01,False
+361,Customer 361,Female,France,45.0,,2023-01-15,100361,2024-01-01,crm,vip,18,48.96,One year,Bank,900361,2024-01-01,False
+362,Customer 362,Female,UK,45.0,125000.0,2023-07-22,100362,2024-01-01,crm,,33,78.6,One year,Card,900362,2024-01-01,False
+363,Customer 363,Female,USA,75.0,,2023-01-15,100363,2024-01-01,crm,vip,13,74.31,Two year,Bank,900363,2024-01-01,False
+364,Customer 364,Male,France,32.0,123000.0,,100364,2024-01-01,crm,,40,79.76,Month-to-month,Card,900364,2024-01-01,False
+365,Customer 365,Female,USA,45.0,,2023-01-15,100365,2024-01-01,crm,vip,55,26.4,Two year,Card,900365,2024-01-01,False
+366,Customer 366,Female,France,45.0,,2023-07-22,100366,2024-01-01,crm,vip,36,87.76,One year,Card,900366,2024-01-01,False
+367,Customer 367,Male,USA,45.0,30000.0,2023-03-15,100367,2024-01-01,crm,,56,22.14,One year,Cash,900367,2024-01-01,False
+368,Customer 368,Male,UK,45.0,108000.0,2023-07-22,100368,2024-01-01,crm,follow up,42,49.91,One year,Cash,900368,2024-01-01,False
+369,Customer 369,Female,Germany,45.0,91000.0,2023-03-04,100369,2024-01-01,crm,follow up,66,28.56,Two year,Bank,900369,2024-01-01,False
+370,Customer 370,Female,USA,45.0,150000.0,2023-03-15,100370,2024-01-01,crm,follow up,44,42.89,Month-to-month,Bank,900370,2024-01-01,False
+371,Customer 371,Female,Germany,45.0,,2023-01-15,100371,2024-01-01,crm,vip,66,103.25,One year,Cash,900371,2024-01-01,True
+372,Customer 372,Female,Germany,45.0,,2023-01-15,100372,2024-01-01,crm,,40,57.39,One year,Cash,900372,2024-01-01,False
+373,Customer 373,Male,USA,44.0,,2023-03-15,100373,2024-01-01,crm,,36,79.51,Two year,Card,900373,2024-01-01,False
+374,Customer 374,Female,France,45.0,,2023-01-15,100374,2024-01-01,crm,follow up,56,114.33,One year,Cash,900374,2024-01-01,False
+375,Customer 375,Female,France,45.0,,,100375,2024-01-01,crm,,27,33.49,Two year,Cash,900375,2024-01-01,False
+376,Customer 376,Male,France,70.0,,2023-03-15,100376,2024-01-01,crm,follow up,17,100.97,Two year,Card,900376,2024-01-01,False
+377,Customer 377,Female,UK,31.0,94000.0,2023-03-04,100377,2024-01-01,crm,follow up,11,45.73,Two year,Card,900377,2024-01-01,False
+378,Customer 378,Female,USA,45.0,,2023-01-15,100378,2024-01-01,crm,vip,47,45.91,Two year,Card,900378,2024-01-01,False
+379,Customer 379,Female,USA,45.0,,,100379,2024-01-01,crm,vip,52,66.26,Two year,Cash,900379,2024-01-01,False
+380,Customer 380,Male,USA,53.0,31000.0,2023-07-22,100380,2024-01-01,crm,follow up,13,50.04,Month-to-month,Card,900380,2024-01-01,False
+381,Customer 381,Male,France,45.0,87000.0,2023-07-22,100381,2024-01-01,crm,follow up,61,84.2,Two year,Cash,900381,2024-01-01,False
+382,Customer 382,Female,USA,45.0,,2023-01-15,100382,2024-01-01,crm,vip,54,24.31,Month-to-month,Bank,900382,2024-01-01,False
+383,Customer 383,Female,Germany,45.0,82000.0,2023-03-15,100383,2024-01-01,crm,,51,88.52,Month-to-month,Bank,900383,2024-01-01,False
+384,Customer 384,Male,UK,45.0,,2023-03-15,100384,2024-01-01,crm,,72,94.04,Two year,Bank,900384,2024-01-01,False
+385,Customer 385,Male,UK,45.0,,2023-03-15,100385,2024-01-01,crm,vip,52,85.84,One year,Cash,900385,2024-01-01,False
+386,Customer 386,Male,USA,45.0,,2023-03-15,100386,2024-01-01,crm,,51,38.79,Month-to-month,Cash,900386,2024-01-01,False
+387,Customer 387,Male,USA,45.0,,2023-07-22,100387,2024-01-01,crm,follow up,44,119.26,One year,Card,900387,2024-01-01,False
+388,Customer 388,Female,France,45.0,,2023-03-15,100388,2024-01-01,crm,,11,44.07,Two year,Card,900388,2024-01-01,False
+389,Customer 389,Female,Germany,45.0,42000.0,2023-07-22,100389,2024-01-01,crm,follow up,72,113.86,One year,Bank,900389,2024-01-01,True
+390,Customer 390,Female,USA,45.0,20000.0,,100390,2024-01-01,crm,follow up,59,67.53,One year,Cash,900390,2024-01-01,False
+391,Customer 391,Female,USA,22.0,,2023-01-15,100391,2024-01-01,crm,follow up,48,118.39,Month-to-month,Cash,900391,2024-01-01,False
+392,Customer 392,Male,France,45.0,,2023-03-04,100392,2024-01-01,crm,,23,37.03,Month-to-month,Cash,900392,2024-01-01,False
+393,Customer 393,Female,UK,45.0,,2023-01-15,100393,2024-01-01,crm,vip,68,41.2,One year,Card,900393,2024-01-01,False
+394,Customer 394,Male,Germany,45.0,122000.0,2023-01-15,100394,2024-01-01,crm,vip,68,35.48,Two year,Cash,900394,2024-01-01,False
+395,Customer 395,Male,France,45.0,,2023-03-15,100395,2024-01-01,crm,vip,29,117.92,One year,Bank,900395,2024-01-01,False
+396,Customer 396,Male,Germany,74.0,,2023-07-22,100396,2024-01-01,crm,,39,28.21,Month-to-month,Bank,900396,2024-01-01,False
+397,Customer 397,Female,France,45.0,,,100397,2024-01-01,crm,,2,114.92,Month-to-month,Bank,900397,2024-01-01,True
+398,Customer 398,Male,Germany,45.0,,2023-03-15,100398,2024-01-01,crm,,60,21.26,Two year,Bank,900398,2024-01-01,False
+399,Customer 399,Male,France,45.0,84000.0,2023-03-15,100399,2024-01-01,crm,vip,1,29.39,Month-to-month,Bank,900399,2024-01-01,True
+400,Customer 400,Female,Germany,45.0,77000.0,,100400,2024-01-01,crm,,33,44.05,Two year,Card,900400,2024-01-01,False

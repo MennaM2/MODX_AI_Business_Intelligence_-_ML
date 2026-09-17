@@ -1,0 +1,190 @@
+{
+  "session_id": "e061c618-1c2f-410f-9c40-f7ee36aebb87",
+  "generated_at": "2026-09-16T01:18:39.615933+00:00",
+  "status": "ready",
+  "summary": {
+    "files_uploaded": 1,
+    "datasets_prepared": 1,
+    "integrated_datasets": 0,
+    "total_rows": 149,
+    "total_warnings": 0,
+    "total_failed_checks": 0,
+    "failed_files": 0
+  },
+  "datasets": [
+    {
+      "table_name": "support_tickets",
+      "source_file": "support_tickets.json",
+      "source_format": "json",
+      "rows_before": 149,
+      "rows_after": 149,
+      "columns": 6,
+      "column_types": {
+        "ticket_id": "numeric",
+        "opened_at": "datetime",
+        "resolved": "boolean",
+        "satisfaction": "numeric",
+        "customer_customer_id": "numeric",
+        "customer_tier": "categorical"
+      },
+      "prepared_path": "data/prepared\\e061c618-1c2f-410f-9c40-f7ee36aebb87\\support_tickets.csv",
+      "raw_path": "data/uploads\\e061c618-1c2f-410f-9c40-f7ee36aebb87_support_tickets.json",
+      "load_notes": [
+        "Extracted the record list from key 'data'.",
+        "Nested JSON objects were flattened into columns."
+      ]
+    }
+  ],
+  "quality": [
+    {
+      "table_name": "support_tickets",
+      "missing_percent_before": 3.69,
+      "missing_percent_after": 0.0,
+      "duplicate_rows_removed": 0,
+      "duplicate_key_columns": [
+        {
+          "column": "customer_customer_id",
+          "duplicate_values": 25,
+          "distinct_values": 124,
+          "detail": "'customer_customer_id' repeats across rows - it is not a unique identifier in this dataset."
+        }
+      ],
+      "invalid_values": [],
+      "id_candidates": [
+        "ticket_id"
+      ],
+      "constant_columns": []
+    }
+  ],
+  "transformations": [
+    {
+      "table_name": "support_tickets",
+      "actions": [
+        {
+          "stage": "standardize",
+          "action": "renamed_columns",
+          "detail": "2 column name(s) normalized.",
+          "columns": {
+            "customer.customerId": "customer_customer_id",
+            "customer.tier": "customer_tier"
+          }
+        },
+        {
+          "stage": "standardize",
+          "action": "standardized_categories",
+          "detail": "Case/spacing variants merged in 1 categorical column(s).",
+          "columns": [
+            {
+              "column": "customer_tier",
+              "values_changed": 51,
+              "categories_merged": 1
+            }
+          ]
+        },
+        {
+          "stage": "standardize",
+          "action": "standardized_dates",
+          "detail": "1 date column(s) converted to ISO 8601.",
+          "columns": [
+            {
+              "column": "opened_at",
+              "output_format": "ISO 8601 date",
+              "unparseable_values": 0
+            }
+          ]
+        },
+        {
+          "stage": "clean",
+          "action": "converted_types",
+          "detail": "1 column(s) converted to a proper type.",
+          "columns": [
+            {
+              "column": "resolved",
+              "from": "object",
+              "to": "boolean",
+              "values_not_converted": 0
+            }
+          ]
+        },
+        {
+          "stage": "clean",
+          "action": "filled_missing_values",
+          "detail": "33 missing value(s) filled across 1 column(s).",
+          "columns": [
+            {
+              "column": "satisfaction",
+              "values_filled": 33,
+              "strategy": "mode (discrete numeric)",
+              "fill_value": "2.0"
+            }
+          ]
+        },
+        {
+          "stage": "deduplicate",
+          "action": "flagged_duplicate_keys",
+          "detail": "1 identifier column(s) contain repeated values (reported, not modified).",
+          "findings": [
+            {
+              "column": "customer_customer_id",
+              "duplicate_values": 25,
+              "distinct_values": 124,
+              "detail": "'customer_customer_id' repeats across rows - it is not a unique identifier in this dataset."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "integration": {
+    "column_matches": [],
+    "relationships": [],
+    "joined_datasets": []
+  },
+  "validation": {
+    "per_dataset": [
+      {
+        "table_name": "support_tickets",
+        "passed": [
+          {
+            "status": "passed",
+            "message": "'ticket_id' is unique and complete.",
+            "column": "ticket_id"
+          },
+          {
+            "status": "passed",
+            "message": "No column is missing an unusual share of values."
+          },
+          {
+            "status": "passed",
+            "message": "All dates in 'opened_at' are valid.",
+            "column": "opened_at"
+          },
+          {
+            "status": "passed",
+            "message": "No exact duplicate rows remain."
+          }
+        ],
+        "warnings": [],
+        "failed": []
+      }
+    ],
+    "integration_checks": []
+  },
+  "feature_relevance": [
+    {
+      "table_name": "support_tickets",
+      "method": "structural screening (no analytical goal provided)",
+      "low_relevance": [
+        {
+          "column": "ticket_id",
+          "relevance": "low_relevance",
+          "reasons": [
+            "appears to be a unique identifier"
+          ]
+        }
+      ],
+      "note": "These columns are unlikely to be useful as features. Nothing was removed - the analysis and ML tools decide what to use."
+    }
+  ],
+  "errors": []
+}

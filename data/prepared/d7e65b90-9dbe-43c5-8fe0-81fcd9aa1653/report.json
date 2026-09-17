@@ -1,0 +1,262 @@
+{
+  "session_id": "d7e65b90-9dbe-43c5-8fe0-81fcd9aa1653",
+  "generated_at": "2026-09-17T06:09:38.952513+00:00",
+  "status": "ready",
+  "summary": {
+    "files_uploaded": 1,
+    "datasets_prepared": 1,
+    "integrated_datasets": 0,
+    "total_rows": 400,
+    "total_warnings": 1,
+    "total_failed_checks": 0,
+    "failed_files": 0
+  },
+  "datasets": [
+    {
+      "table_name": "churn",
+      "source_file": "churn.csv",
+      "source_format": "delimited",
+      "rows_before": 400,
+      "rows_after": 400,
+      "columns": 8,
+      "column_types": {
+        "customer_id": "numeric",
+        "tenure_months": "numeric",
+        "monthly_charges": "numeric",
+        "contract_type": "categorical",
+        "payment_method": "categorical",
+        "internal_record_number": "numeric",
+        "raw_import_timestamp": "datetime",
+        "churn": "boolean"
+      },
+      "column_profiles": [
+        {
+          "name": "customer_id",
+          "type": "numeric",
+          "missing_percent": 0.0,
+          "distinct": 400,
+          "unique_ratio": 1.0,
+          "is_constant": false,
+          "id_candidate": true
+        },
+        {
+          "name": "tenure_months",
+          "type": "numeric",
+          "missing_percent": 0.0,
+          "distinct": 72,
+          "unique_ratio": 0.18,
+          "is_constant": false,
+          "id_candidate": false
+        },
+        {
+          "name": "monthly_charges",
+          "type": "numeric",
+          "missing_percent": 0.0,
+          "distinct": 394,
+          "unique_ratio": 0.985,
+          "is_constant": false,
+          "id_candidate": false
+        },
+        {
+          "name": "contract_type",
+          "type": "categorical",
+          "missing_percent": 0.0,
+          "distinct": 3,
+          "unique_ratio": 0.0075,
+          "is_constant": false,
+          "id_candidate": false
+        },
+        {
+          "name": "payment_method",
+          "type": "categorical",
+          "missing_percent": 0.0,
+          "distinct": 3,
+          "unique_ratio": 0.0075,
+          "is_constant": false,
+          "id_candidate": false
+        },
+        {
+          "name": "internal_record_number",
+          "type": "numeric",
+          "missing_percent": 0.0,
+          "distinct": 400,
+          "unique_ratio": 1.0,
+          "is_constant": false,
+          "id_candidate": true
+        },
+        {
+          "name": "raw_import_timestamp",
+          "type": "datetime",
+          "missing_percent": 0.0,
+          "distinct": 1,
+          "unique_ratio": 0.0025,
+          "is_constant": true,
+          "id_candidate": false
+        },
+        {
+          "name": "churn",
+          "type": "boolean",
+          "missing_percent": 0.0,
+          "distinct": 2,
+          "unique_ratio": 0.005,
+          "is_constant": false,
+          "id_candidate": false
+        }
+      ],
+      "prepared_path": "data/prepared\\d7e65b90-9dbe-43c5-8fe0-81fcd9aa1653\\churn.csv",
+      "raw_path": "data/uploads\\d7e65b90-9dbe-43c5-8fe0-81fcd9aa1653_churn.csv",
+      "load_notes": []
+    }
+  ],
+  "quality": [
+    {
+      "table_name": "churn",
+      "missing_percent_before": 0.0,
+      "missing_percent_after": 0.0,
+      "duplicate_rows_removed": 0,
+      "duplicate_key_columns": [],
+      "invalid_values": [],
+      "id_candidates": [
+        "customer_id",
+        "internal_record_number"
+      ],
+      "constant_columns": [
+        "raw_import_timestamp"
+      ]
+    }
+  ],
+  "transformations": [
+    {
+      "table_name": "churn",
+      "actions": [
+        {
+          "stage": "standardize",
+          "action": "standardized_dates",
+          "detail": "1 date column(s) converted to ISO 8601.",
+          "columns": [
+            {
+              "column": "raw_import_timestamp",
+              "output_format": "ISO 8601 date",
+              "unparseable_values": 0
+            }
+          ]
+        },
+        {
+          "stage": "clean",
+          "action": "converted_types",
+          "detail": "5 column(s) converted to a proper type.",
+          "columns": [
+            {
+              "column": "customer_id",
+              "from": "str",
+              "to": "numeric",
+              "values_not_converted": 0
+            },
+            {
+              "column": "tenure_months",
+              "from": "str",
+              "to": "numeric",
+              "values_not_converted": 0
+            },
+            {
+              "column": "monthly_charges",
+              "from": "str",
+              "to": "numeric",
+              "values_not_converted": 0
+            },
+            {
+              "column": "internal_record_number",
+              "from": "str",
+              "to": "numeric",
+              "values_not_converted": 0
+            },
+            {
+              "column": "churn",
+              "from": "str",
+              "to": "boolean",
+              "values_not_converted": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "integration": {
+    "column_matches": [],
+    "relationships": [],
+    "joined_datasets": []
+  },
+  "validation": {
+    "per_dataset": [
+      {
+        "table_name": "churn",
+        "passed": [
+          {
+            "status": "passed",
+            "message": "'customer_id' is unique and complete.",
+            "column": "customer_id"
+          },
+          {
+            "status": "passed",
+            "message": "'internal_record_number' is unique and complete.",
+            "column": "internal_record_number"
+          },
+          {
+            "status": "passed",
+            "message": "No column is missing an unusual share of values."
+          },
+          {
+            "status": "passed",
+            "message": "All dates in 'raw_import_timestamp' are valid.",
+            "column": "raw_import_timestamp"
+          },
+          {
+            "status": "passed",
+            "message": "No exact duplicate rows remain."
+          }
+        ],
+        "warnings": [
+          {
+            "status": "warning",
+            "message": "1 column(s) hold a single value and carry no information: raw_import_timestamp"
+          }
+        ],
+        "failed": []
+      }
+    ],
+    "integration_checks": []
+  },
+  "feature_relevance": [
+    {
+      "table_name": "churn",
+      "method": "structural screening (no analytical goal provided)",
+      "low_relevance": [
+        {
+          "column": "customer_id",
+          "relevance": "low_relevance",
+          "reasons": [
+            "appears to be a unique identifier"
+          ]
+        },
+        {
+          "column": "internal_record_number",
+          "relevance": "low_relevance",
+          "reasons": [
+            "appears to be a unique identifier",
+            "name suggests an import or bookkeeping artifact"
+          ]
+        },
+        {
+          "column": "raw_import_timestamp",
+          "relevance": "low_relevance",
+          "reasons": [
+            "holds a single value for every row",
+            "name suggests an import or bookkeeping artifact"
+          ]
+        }
+      ],
+      "note": "These columns are unlikely to be useful as features. Nothing was removed - the analysis and ML tools decide what to use."
+    }
+  ],
+  "errors": []
+}

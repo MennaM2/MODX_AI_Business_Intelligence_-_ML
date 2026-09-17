@@ -1,0 +1,40 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    ports:
+      - "8000:8000"
+    environment:
+      - LLM_PROVIDER=gemini
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - GEMINI_MODEL=${GEMINI_MODEL:gemini-2.0-flash}
+      - GEMINI_TIMEOUT_SECONDS=${GEMINI_TIMEOUT_SECONDS:-75}
+      - GEMINI_MAX_RETRIES=${GEMINI_MAX_RETRIES:-2}
+      - UPLOAD_DIR=data/uploads
+      - PREPARED_DIR=data/prepared
+      - OUTPUT_DIR=outputs
+      - SMTP_HOST=${SMTP_HOST:-}
+      - SMTP_PORT=${SMTP_PORT:-587}
+      - SMTP_USER=${SMTP_USER:-}
+      - SMTP_PASSWORD=${SMTP_PASSWORD:-}
+      - SMTP_FROM=${SMTP_FROM:-}
+    volumes:
+      - ./data/uploads:/app/data/uploads
+      - ./data/prepared:/app/data/prepared
+      - ./outputs:/app/outputs
+      - ./.vector_cache:/app/.vector_cache
+
+  ui:
+    build:
+      context: .
+      dockerfile: Dockerfile.ui
+    ports:
+      - "8501:8501"
+    environment:
+      - API_BASE_URL=http://api:8000
+    volumes:
+      - ./data/uploads:/app/data/uploads
+      - ./outputs:/app/outputs
+    depends_on:
+      - api

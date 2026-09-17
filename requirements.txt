@@ -1,0 +1,24 @@
+# Core API
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+pydantic>=2.7
+python-dotenv>=1.0
+
+# Data
+pandas>=2.2
+numpy>=1.26
+duckdb>=1.1
+scikit-learn>=1.5
+
+# Excel support for app/data_engine/loader.py (new - the only new
+# runtime dependency introduced by the Data Preparation Engine).
+openpyxl>=3.1
+
+# LLM client (Gemini via its OpenAI-compatible endpoint)
+openai>=1.40
+
+# Reporting
+matplotlib>=3.9
+python-docx>=1.1
+fpdf2>=2.7
