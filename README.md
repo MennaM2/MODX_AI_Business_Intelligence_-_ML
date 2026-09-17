@@ -4,6 +4,8 @@
 ![FastAPI](https://img.shields.io/badge/FastAPI-backend-teal)
 ![Gemini](https://img.shields.io/badge/Gemini-3.5%20Flash--Lite-orange)
 ![DuckDB](https://img.shields.io/badge/DuckDB-SQL%20engine-yellow)
+![SQLite](https://img.shields.io/badge/SQLite-persistent%20sessions-lightgrey)
+![No Framework](https://img.shields.io/badge/Frontend-vanilla%20JS%2C%20no%20build%20step-brightgreen)
 
 An agentic backend + UI that turns messy, real-world files (mismatched
 delimiters, multi-sheet Excel workbooks, nested JSON) into a clean,
@@ -12,6 +14,11 @@ questions about them with real tool calls (SQL joins, statistics,
 trend/anomaly detection, ML training, visualization, and automated
 report generation/delivery), grounded in verified tool output, never
 invented.
+
+> **Why this exists:** most "chat with your data" projects assume the
+> data already arrives clean. This one starts from the assumption
+> that it doesn't — and treats knowing what it *can't* safely fix
+> automatically as important as the AI layer on top of it.
 
 <p align="center">
   <img src="docs/screenshots/ui-data.png" width="49%" alt="Dataset preview after uploading a CSV" />
@@ -28,6 +35,19 @@ invented.
 <p align="center">
   <img src="docs/screenshots/ui-cleaning-audit.png" width="80%" alt="Data Preparation and Cleaning Audit showing exactly what was auto-fixed vs left for the user to decide" />
 </p>
+
+## At a glance
+
+| | |
+|---|---|
+| 🧹 **Handles messy input** | Wrong CSV delimiters, multi-sheet Excel, nested JSON — cleaned and profiled automatically before any question is asked |
+| 🛑 **Never guesses on ambiguous data** | Flags negative values, out-of-range ages, high missing rates — reports them instead of silently "fixing" them |
+| 🔗 **Real multi-table SQL** | Joins across every uploaded table via DuckDB, not single-table lookups |
+| 📊 **Grounded answers only** | Every number traces back to a real tool call — no tool call, no claim |
+| 📈 **Charts + reports, not just text** | Real matplotlib charts inline in chat *and* embedded in PDF/Word/HTML reports |
+| 🤖 **Real ML, real metrics** | scikit-learn training with actual accuracy/F1/feature-importance, not a "done!" badge |
+
+---
 
 
 ## Contents
@@ -269,3 +289,11 @@ frontend/
 - Gemini's free tier has real daily request quotas that vary by
   model; `gemini-3.5-flash-lite` was chosen specifically for having
   a much higher one than newer flagship models.
+
+---
+
+<p align="center">
+  If this is useful or interesting, a ⭐ on the repo is appreciated.
+  <br/>
+  Feedback and PRs welcome.
+</p>
