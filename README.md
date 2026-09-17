@@ -29,13 +29,6 @@ invented.
   <img src="docs/screenshots/ui-cleaning-audit.png" width="80%" alt="Data Preparation and Cleaning Audit showing exactly what was auto-fixed vs left for the user to decide" />
 </p>
 
----
-
-## Demo
-
-- [**Full walkthrough video**](#) <!-- replace with your video link -->
-
----
 
 ## Contents
 
