@@ -1,4 +1,4 @@
-# MODX AI — Business Intelligence & ML Workbench
+# MODX AI — an AI Agent for Business Intelligence & ML
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-backend-teal)
